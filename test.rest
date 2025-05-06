@@ -1,1 +1,9 @@
-GET http://localhost:8080/health_check
+# GET http://localhost:8000/health_check
+
+# post form subscriptions
+POST http://localhost:8000/subscriptions
+
+Content-Type: multipart/form-data
+{
+
+}
